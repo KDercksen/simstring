@@ -1,8 +1,10 @@
 from collections import defaultdict
 from .base import BaseDatabase
 
+
 def defaultdict_set():
     return defaultdict(set)
+
 
 class DictDatabase(BaseDatabase):
     def __init__(self, feature_extractor):

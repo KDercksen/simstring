@@ -1,6 +1,7 @@
 import math
 from .base import BaseMeasure
 
+
 class JaccardMeasure(BaseMeasure):
     def min_feature_size(self, query_size, alpha):
         return int(math.ceil(alpha * query_size))

@@ -3,6 +3,7 @@
 from unittest import TestCase
 from simstring.measure.jaccard import JaccardMeasure
 
+
 class TestCosine(TestCase):
     measure = JaccardMeasure()
 

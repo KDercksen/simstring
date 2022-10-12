@@ -3,6 +3,7 @@
 from unittest import TestCase
 from simstring.measure.dice import DiceMeasure
 
+
 class TestCosine(TestCase):
     measure = DiceMeasure()
 

@@ -1,6 +1,7 @@
 import math
 from .base import BaseMeasure
 
+
 class DiceMeasure(BaseMeasure):
     def min_feature_size(self, query_size, alpha):
         return int(math.ceil(alpha * 1.0 / (2 - alpha) * query_size))

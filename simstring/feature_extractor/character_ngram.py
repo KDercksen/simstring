@@ -2,6 +2,7 @@ from .base import BaseFeatureExtractor
 
 SENTINAL_CHAR = " "  # non breaking space
 
+
 class CharacterNgramFeatureExtractor(BaseFeatureExtractor):
     def __init__(self, n=2):
         self.n = n
